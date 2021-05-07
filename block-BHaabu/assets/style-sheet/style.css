@@ -1,0 +1,103 @@
+CSS reset
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+}
+html,body {
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img { 
+  border:0;
+}
+input{
+	border:1px solid #b0b0b0;
+	padding:3px 5px 4px;
+	color:#979797;
+	width:190px;
+}
+address,caption,cite,code,dfn,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul {
+  list-style:none;
+}
+caption,th {
+  text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {
+  content:'';
+}
+abbr,acronym { border:0;
+}
+ 
+
+/* Custom style */
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section{
+	background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../media/coffee.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	padding-bottom: 100px;
+}
+h1{
+	text-align: center;
+	font-size: 60px;
+	font-weight: 900	;
+	color: white;
+	padding-top: 30px;
+}
+.box{
+	font-size: 40px;
+	font-weight: 900;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 600px;
+	height: 300px;
+	margin: 160px 40px;
+	background-image: linear-gradient(red, red);
+}
+.two{
+	background-image: linear-gradient(to right,rgba(17, 5, 5, 0.9), rgba(239, 65, 72, 1));
+}
+.three{
+	background-image: radial-gradient(rgba(247,67,71, 1), rgba(207, 27, 51, 0.9), rgba(82,38,39, 0.6));
+}
+.image{
+	background-image: url(../media/second.jpg);
+	width: 80%;
+	height: 6	00px;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+h3{
+	font-size: 60px;
+	font-weight: 900;
+}
+
+
